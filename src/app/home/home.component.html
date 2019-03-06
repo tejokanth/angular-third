@@ -1,0 +1,9 @@
+<div class="container dark">
+  <div class="col">
+    <p>This is an interface for student login</p>
+    <p>Login to view the details of the student</p>
+    <button *ngIf="loginEnable" class="btn" (click)=login()>Login</button>
+    <button *ngIf="logoutEnable" class="btn" (click)=logout()>Logout</button>
+    <p *ngIf="logoutEnable">Check the details of the student</p>
+  </div>
+</div>

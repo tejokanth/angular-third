@@ -1,0 +1,19 @@
+<div class="container dark">
+    <div class="col">
+        <p>This is an interface for viewing players details</p>
+        <button class="btn" (click)=getData()>View</button>
+    </div>
+    <div class="container">
+      <div *ngIf="enableLoad" class="col light">
+        Loading.....
+      </div>
+      <div *ngIf="errEnable" class="col light">
+        Unable to get the data from server
+      </div>
+      <div *ngIf="enableDet" class="col light">
+        <div *ngFor="let p of player;index as i">
+          <li>{{i+1}}) {{p.name}}  {{p.dep}}  {{p.sec}}</li>
+        </div>
+      </div>
+    </div>
+  </div>

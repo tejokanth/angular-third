@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(124, 88, 221);
+    padding: 2em;
+}
+nav{
+    background-color: rgb(58, 58, 221);
+}
+ul{
+    margin: 0;
+    padding: 1em;
+}
+ul li{
+    display: inline;
+    margin-right: 30px;
+}
+ul li a{
+    font-size: 1.5em;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: .5em;
+}
+.col{
+    padding: .8em 1.3em;
+}
+.dark{
+    background-color: rgb(56, 56, 185);
+}
+.light{
+    background-color: rgb(116, 116, 252);
+}
+.btn{
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #A5F883;
+    color: #003A61;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
